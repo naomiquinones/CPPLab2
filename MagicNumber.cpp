@@ -10,4 +10,6 @@ int main() {
     int result = (((user_int * 2) + 10) / 2) - user_int;
 
     cout << "Your magic number is... " << result << "!" << endl;
+
+    return 0;
 }
