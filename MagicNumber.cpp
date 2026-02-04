@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-    int user_int;
+    int userInt;
     cout << "Type your favorite integer ";
 
-    cin >> user_int;
+    cin >> userInt;
 
-    int result = (((user_int * 2) + 10) / 2) - user_int;
+    int result = (((userInt * 2) + 10) / 2) - userInt;
 
     cout << "Your magic number is... " << result << "!" << endl;
 
